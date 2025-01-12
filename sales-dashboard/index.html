@@ -1,0 +1,53 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Sales Dashboard</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <div class="dashboard-container">
+        <header>
+            <h1>Sales Dashboard</h1>
+        </header>
+        <main>
+            <section class="key-metrics">
+                <div class="card total-revenue">
+                    <div class="card-icon">💰</div>
+                    <div class="card-content">
+                        <h2>Total Revenue</h2>
+                        <p>$500,000</p>
+                    </div>
+                </div>
+                <div class="card new-customers">
+                    <div class="card-icon">👤</div>
+                    <div class="card-content">
+                        <h2>New Customers</h2>
+                        <p>1,200</p>
+                    </div>
+                </div>
+                <div class="card average-order-value">
+                    <div class="card-icon">🛒</div>
+                    <div class="card-content">
+                        <h2>Average Order Value</h2>
+                        <p>$416.67</p>
+                    </div>
+                </div>
+            </section>
+            <section class="charts">
+                <div class="chart-container">
+                    <h2>Sales by Category</h2>
+                    <canvas id="sales-by-category-chart"></canvas>
+                </div>
+                 <div class="chart-container">
+                    <h2>Sales by Region</h2>
+                    <canvas id="sales-by-region-chart"></canvas>
+                </div>
+            </section>
+        </main>
+    </div>
+    <script src="https://cdn.jsdelivr.net/npm/chart.js"></script>
+    <script src="script.js"></script>
+</body>
+</html>
