@@ -1,0 +1,5 @@
+# HcpInboundInquiryClustering
+
+## Commercial Analytics Scope
+- Domain: OmnichannelAndCustomerMarketing
+- Data Sources: 837i, 837p, 835, LAD, NPI Master, PBM Formularies
